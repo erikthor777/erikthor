@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(./assets/fonts/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: Helvetica Bold;
+    src: url(./assets/fonts/);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Advercase Bold;
+    src: url(./assets/fonts/AdvercaseFont-Demo-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Vipnagorgialla Bold Italic;
+    src: url(./assets/fonts/Vipnagorgialla\ Bd\ It.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    background-color: black;
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.centre-box {
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    margin: 25vh auto;
+}
+
+.index-box {
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    margin: 50vh auto;
+}
+.form-item {
+    margin: 20px;
+}
+
+a, h1 a, li {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.centre-box li {
+    list-style-type: none;
+}
+
+a:hover, li a:hover, li:hover {
+    font-size: 20px;
+    list-style-type: '⌘';
+}
+
+h1 a:hover {
+    color: grey;
+    font-size: 32px;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+a:visited {
+    color: white;
+}
+
+button {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.light, .light li, .light a {
+    background-color: white;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.vibe {
+    font-family: "Advercase Bold", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+}
+.bib {
+    font-family: Vipnagorgialla Bold Italic;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.vibe:hover, .bib:hover {
+    font-size: 40px;
+}
+
+.light .vibe {
+    font-family: Advercase Bold;
+}
+
+.light .bib {
+    font-family: Vipnagorgialla Bold Italic;
+}
