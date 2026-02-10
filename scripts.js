@@ -33,6 +33,9 @@ sites.addEventListener("click", () => {
     const bib = document.createElement("div");
     bib.innerHTML = `<a href="https://erikthor777.github.io/bibliotek" target="_blank" class="bib">bibliothèque</a>`
     centreBox.append(bib);
+    const month = document.createElement("div");
+    month.innerHTML = `<a href="https://erikthor777.github.io/month-day/ target="_blank class="big-text">month-day</a>`
+    centreBox.append(month);
 
     vibeCity.style.margin = "20px";
 });

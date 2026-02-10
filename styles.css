@@ -93,6 +93,11 @@ button {
     font-size: 32px;
 }
 
+.big-text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 32px;
+}
+
 .vibe:hover, .bib:hover {
     font-size: 40px;
 }
